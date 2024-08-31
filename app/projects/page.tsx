@@ -1,11 +1,11 @@
 import React from "react";
 
-const HomePage = () => {
+const ProjectsPage = () => {
   return (
     <div className="text-gray-800 dark:text-white text-center transition-colors">
-      HomePage
+      ProjectsPage
     </div>
   );
 };
 
-export default HomePage;
+export default ProjectsPage;
