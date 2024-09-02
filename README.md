@@ -1,4 +1,4 @@
-## My Personal Website and Portfolio
+## My Personal Website and Portfolio 🍫
 
 Hello! Welcome to my current attempt to best capture my identity through a website.
 
