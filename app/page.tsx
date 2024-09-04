@@ -19,7 +19,7 @@ const HomePage = () => {
       <div
         className={`${montserrat.className} text-gray-800 dark:text-white relative flex flex-col justify-center text-center transition-colors w-full h-screen py-24 pt-6`}
       >
-        <h1 className="font-extrabold text-5xl sm:text-6xl md:text-7xl z-10 py-5">
+        <h1 className="font-extrabold text-4xl sm:text-6xl md:text-7xl z-10 py-5">
           Hi, I&apos;m Hamzah.
         </h1>
         <p className="text-md sm:text-lg md:text-xl z-10">Coming soon.</p>
