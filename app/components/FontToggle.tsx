@@ -55,7 +55,7 @@ const FontToggle = () => {
 
   return (
     <motion.div
-      className="flex w-36 px-4 align-middle justify-center items-center border-gray-200/80 
+      className="flex w-36 px-4 py-5 align-middle justify-center items-center border-gray-200/80 
       border-0 shadow-[rgba(0,0,0,0.13)_0px_0px_0px_0px] hover:shadow-[rgba(0,0,0,0.13)_3px_3px_10px_2px] 
       dark:shadow-[rgba(255,255,255,0.08)_0px_0px_0px_0px] dark:hover:shadow-[rgba(255,255,255,0.08)_3px_3px_15px_1px] 
       transition-all duration-10000 ease-out rounded-md"
