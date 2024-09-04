@@ -12,10 +12,10 @@ const SideBar = () => {
   };
 
   return (
-    <div className="flex space-x-5 items-center">
+    <div className="flex items-center">
       <ThemeToggle />
       <button
-        className="relative flex items-center justify-center p-2 rounded-md bg-transparent overflow-hidden group"
+        className="hidden relative items-center justify-center p-2 rounded-md bg-transparent overflow-hidden group"
         aria-label="Sidebar Hamburger Button"
       >
         {/* Hamburger Icon */}

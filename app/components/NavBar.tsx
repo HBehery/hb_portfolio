@@ -80,7 +80,7 @@ const NavBar = () => {
 
       <div className="flex items-center ml-auto">
         {/* SIDEBAR */}
-        <div className="flex sm:hidden px-10">
+        <div className="flex sm:hidden px-7">
           <SideBar />
         </div>
         <div className="sm:flex hidden">
