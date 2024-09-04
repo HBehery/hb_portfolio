@@ -68,7 +68,7 @@ const NavBar = () => {
         >
           {/* Resume Icon */}
           <div className="absolute inset-0 bg-gradient-to-br from-orange-500 to-yellow-200 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
-          <a href="https://github.com/HBehery">
+          <a href="/Resume-Hamzah_Behery.pdf" download>
             <IoNewspaperOutline className="relative z-10" size={25} />
           </a>
         </button>
