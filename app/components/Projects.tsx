@@ -5,6 +5,7 @@ import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Lenis from "lenis";
 import useDimension from "@/useDimension";
+import Link from "next/link";
 
 const images = [
   "image1.png",
@@ -85,8 +86,10 @@ const Column = ({ images, y = 0 }) => {
           >
             {src === "image5.png" && (
               <div className="absolute z-10 inset-0 flex justify-center items-center">
-                <h1 className="text-gray-700 sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold z-40 text-center">
-                  MY <br /> PROJECTS
+                <h1 className="text-gray-800 hover:text-gray-700 sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold z-40 text-center transition-colors">
+                  <Link href={"/projects"}>
+                    MY <br /> PROJECTS
+                  </Link>
                 </h1>
               </div>
             )}
