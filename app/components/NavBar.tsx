@@ -8,17 +8,17 @@ import { GrProjects } from "react-icons/gr";
 import { IoNewspaperOutline } from "react-icons/io5";
 
 import FontToggle from "./FontToggle";
-import SideBar from "./SideBar";
+import MobileNav from "./NavBar/MobileNav";
 
 const NavBar = () => {
   return (
-    <div className="flex w-full top-0 py-6 px-5 bg-gray-200/5 dark:bg-black/5 backdrop-blur-md transition-colors text-gray-800 dark:text-white">
-      <div className="flex sm:hidden">
+    <div className="flex w-full top-0 py-6 px-0 min-[400px]:px-5 bg-gray-200/5 dark:bg-black/5 backdrop-blur-md transition-colors text-gray-800 dark:text-white">
+      <div className="hidden">
         <FontToggle />
       </div>
 
       {/* ICONS */}
-      <div className="sm:flex hidden rounded-md py-2 px-2 space-x-4 align-middle items-center w-full">
+      <div className="flex rounded-md py-2 px-2 space-x-4 align-middle items-center w-full justify-between sm:justify-normal">
         <button
           className="relative flex items-center justify-center p-2 rounded-md bg-transparent overflow-hidden group"
           aria-label="HomePage Button"
@@ -78,19 +78,19 @@ const NavBar = () => {
           </a>
         </button>
         <div className="w-px h-6 bg-gray-300" /> {/* Vertical Separator */}
-        <div className="p-2">
+        <div className="sm:p-2">
           <ThemeToggle />
         </div>
       </div>
 
-      <div className="flex items-center ml-auto">
-        {/* SIDEBAR */}
-        <div className="flex sm:hidden px-7">
-          <SideBar />
+      {/* SIDEBAR */}
+      <div className="hidden items-center ml-auto">
+        <div className="">
+          <MobileNav />
         </div>
-        <div className="sm:flex hidden">
-          <FontToggle />
-        </div>
+      </div>
+      <div className="hidden sm:flex">
+        <FontToggle />
       </div>
     </div>
   );

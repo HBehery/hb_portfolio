@@ -8,15 +8,27 @@ import useDimension from "@/useDimension";
 import Link from "next/link";
 
 const images = [
-  "image1.png",
-  "image2.png",
-  "image3.png",
-  "image4.png",
-  "image5.png",
-  "image6.png",
-  "image7.png",
-  "image8.png",
-  "image9.png",
+  { src: "image1.png", href: "https://trispects.com/" },
+  { src: "image2.png", href: "https://github.com/HBehery/Hangman" },
+  {
+    src: "image3.png",
+    href: "https://github.com/HBehery/AegisLock-AI-Password-Manager",
+  },
+  {
+    src: "image4.png",
+    href: "https://github.com/HBehery/Post-Secondary-Guidance",
+  },
+  { src: "image5.png", href: null }, // No href for image5
+  {
+    src: "image6.png",
+    href: "https://github.com/HBehery/steal-the-diamond-cyoa",
+  },
+  { src: "image7.png", href: "https://trispects.com/" },
+  {
+    src: "image8.png",
+    href: "https://github.com/HBehery/Post-Secondary-Guidance",
+  },
+  { src: "image9.png", href: "https://github.com/HBehery/realityquest" },
 ];
 
 const ProjectsPage = () => {
@@ -58,7 +70,6 @@ const ProjectsPage = () => {
         <Column images={[images[2], images[4], images[5], images[2]]} y={y2} />
         <Column images={[images[6], images[7], images[1], images[0]]} y={y3} />
       </div>
-      <div className="h-[100vh]" />
     </div>
   );
 };
@@ -72,7 +83,8 @@ const Column = ({ images, y = 0 }) => {
       id="column"
       className="w-1/3 h-100vh flex flex-col gap-[2vw] overflow-hidden relative first:top-[-60vh] even:top-[-85vh] last:top-[-115vh]"
     >
-      {images.map((src, index) => {
+      {images.map((image, index) => {
+        const { src, href } = image;
         return (
           <div
             key={index}
@@ -93,12 +105,24 @@ const Column = ({ images, y = 0 }) => {
                 </h1>
               </div>
             )}
-            <Image
-              className="object-cover rounded-[0.5vw]"
-              src={`/project_images/${src}`}
-              fill
-              alt="project image"
-            />
+            {href ? (
+              <Link href={href}>
+                {" "}
+                <Image
+                  className="object-cover rounded-[2vw] lg:rounded-[0.5vw]"
+                  src={`/project_images/${src}`}
+                  fill
+                  alt="project image"
+                />{" "}
+              </Link>
+            ) : (
+              <Image
+                className="object-cover rounded-[2vw] lg:rounded-[0.5vw]"
+                src={`/project_images/${src}`}
+                fill
+                alt="project image"
+              />
+            )}
           </div>
         );
       })}
