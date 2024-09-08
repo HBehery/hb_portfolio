@@ -24,8 +24,9 @@ const NavBar = () => {
           aria-label="HomePage Button"
         >
           {/* Home Icon */}
-          <div className="absolute inset-0 bg-gradient-to-br from-rose-500 to-yellow-200 dark:from-indigo-500 dark:to-teal-500 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
           <Link href="/">
+            <div className="absolute inset-0 bg-gradient-to-br from-rose-500 to-yellow-200 dark:from-indigo-500 dark:to-teal-500 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
+
             <SlHome className="relative  z-10" size={23} />
           </Link>
         </button>
@@ -36,8 +37,9 @@ const NavBar = () => {
           aria-label="LinkedIn Profile Button"
         >
           {/* LinkedIn Icon */}
-          <div className="absolute inset-0 bg-gradient-to-br from-rose-500 to-yellow-200 dark:from-indigo-500 dark:to-teal-500 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
           <a href="https://www.linkedin.com/in/hamzah-behery/">
+            <div className="absolute inset-0 bg-gradient-to-br from-rose-500 to-yellow-200 dark:from-indigo-500 dark:to-teal-500 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
+
             <AiOutlineLinkedin className="relative  z-10" size={23} />
           </a>
         </button>
@@ -46,19 +48,21 @@ const NavBar = () => {
           aria-label="GitHub Profile Button"
         >
           {/* GitHub Icon */}
-          <div className="absolute inset-0 bg-gradient-to-br from-rose-500 to-yellow-200 dark:from-indigo-500 dark:to-teal-500 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
           <a href="https://github.com/HBehery">
+            <div className="absolute inset-0 bg-gradient-to-br from-rose-500 to-yellow-200 dark:from-indigo-500 dark:to-teal-500 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
+
             <VscGithubAlt className="relative  z-10" size={23} />
           </a>
         </button>
-        <div className="w-px h-6 bg-gray-300"></div> {/* Vertical Separator */}
+        <div className="w-px h-6 bg-gray-300" /> {/* Vertical Separator */}
         <button
           className="relative flex items-center justify-center p-2 rounded-md bg-transparent overflow-hidden group"
           aria-label="Projects Page Button"
         >
           {/* Projects Icon */}
-          <div className="absolute inset-0 bg-gradient-to-br from-rose-500 to-yellow-200 dark:from-indigo-500 dark:to-teal-500 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
           <Link href="/projects">
+            <div className="absolute inset-0 bg-gradient-to-br from-rose-500 to-yellow-200 dark:from-indigo-500 dark:to-teal-500 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
+
             <GrProjects className="relative z-10" size={20} />
           </Link>
         </button>
@@ -67,12 +71,13 @@ const NavBar = () => {
           aria-label="Resume Page Button"
         >
           {/* Resume Icon */}
-          <div className="absolute inset-0 bg-gradient-to-br from-rose-500 to-yellow-200 dark:from-indigo-500 dark:to-teal-500 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
           <a href="/Resume-Hamzah_Behery.pdf" download>
+            <div className="absolute inset-0 bg-gradient-to-br from-rose-500 to-yellow-200 dark:from-indigo-500 dark:to-teal-500 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
+
             <IoNewspaperOutline className="relative z-10" size={25} />
           </a>
         </button>
-        <div className="w-px h-6 bg-gray-300"></div> {/* Vertical Separator */}
+        <div className="w-px h-6 bg-gray-300" /> {/* Vertical Separator */}
         <div className="p-2">
           <ThemeToggle />
         </div>
