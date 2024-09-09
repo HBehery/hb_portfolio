@@ -62,7 +62,7 @@ const HomePage = () => {
           {/* Left side Hello Text */}
           <div
             id="text_container"
-            className="flex flex-col items-center justify-center w-full lg:w-[90%] h-[50vh] pt-48 lg:sticky self-start lg:top-[15%] lg:pl-5"
+            className="flex flex-col items-center justify-center w-full lg:w-[90%] h-[50vh] pt-24 max-[700px]:pt-0 lg:pt-48 lg:sticky self-start lg:top-[15%] lg:pl-5"
           >
             <h1 className="font-extrabold text-[45px] max-[400px]:text-4xl md:text-5xl xl:text-6xl 2xl:text-7xl z-30 py-5 sm:mx-0 ">
               Hi, I&apos;m Hamzah.
@@ -384,7 +384,7 @@ const HomePage = () => {
         </div>
 
         {/* Projects Section */}
-        <div ref={projectsRef} className="max-[700px]:hidden">
+        <div ref={projectsRef} className="max-[699px]:hidden">
           <ProjectsPage />
         </div>
         <div id="footer" className="h-[33vh] bg-black/90 dark:bg-black/70  ">
