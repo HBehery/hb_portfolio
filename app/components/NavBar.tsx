@@ -72,7 +72,11 @@ const NavBar = () => {
           aria-label="Resume Page Button"
         >
           {/* Resume Icon */}
-          <a href="/Resume-Hamzah_Behery.pdf" download>
+          <a
+            href="/Resume-Hamzah_Behery.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <div className="absolute inset-0 bg-gradient-to-br from-rose-500 to-orange-200 dark:from-violet-800 dark:to-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
 
             <IoNewspaperOutline className="relative z-10" size={25} />
