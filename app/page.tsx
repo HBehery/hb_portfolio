@@ -41,6 +41,9 @@ const HomePage = () => {
 
   return (
     <div>
+      <div className="min-[700px]:hidden">
+        <NavBar />
+      </div>
       {/* Navbar with scroll animation */}
       <motion.div
         id="nav_bar"
@@ -50,7 +53,7 @@ const HomePage = () => {
         <NavBar />
       </motion.div>
 
-      <div id="home_page" className="mt-[20%] lg:mt-12">
+      <div id="home_page" className="mt-[1%] lg:mt-12">
         <div
           id="hello_section"
           ref={ref}
