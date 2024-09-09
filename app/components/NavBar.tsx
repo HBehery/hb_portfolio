@@ -25,9 +25,10 @@ const NavBar = () => {
         >
           {/* Home Icon */}
           <Link href="/">
-            <div className="absolute inset-0 bg-gradient-to-br from-rose-500 to-yellow-200 dark:from-indigo-500 dark:to-teal-500 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
+            {/*  dark:from-indigo-500 dark:to-teal-500 */}
+            <div className="absolute inset-0 bg-gradient-to-br from-rose-500 to-orange-200 dark:from-violet-800 dark:to-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
 
-            <SlHome className="relative  z-10" size={23} />
+            <SlHome className="relative  z-10" size={24} />
           </Link>
         </button>
         <div className="w-px x h-6 bg-gray-300"></div>{" "}
@@ -38,9 +39,9 @@ const NavBar = () => {
         >
           {/* LinkedIn Icon */}
           <a href="https://www.linkedin.com/in/hamzah-behery/">
-            <div className="absolute inset-0 bg-gradient-to-br from-rose-500 to-yellow-200 dark:from-indigo-500 dark:to-teal-500 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
+            <div className="absolute inset-0 bg-gradient-to-br from-rose-500 to-orange-200 dark:from-violet-800 dark:to-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
 
-            <AiOutlineLinkedin className="relative  z-10" size={23} />
+            <AiOutlineLinkedin className="relative  z-10" size={24} />
           </a>
         </button>
         <button
@@ -49,9 +50,9 @@ const NavBar = () => {
         >
           {/* GitHub Icon */}
           <a href="https://github.com/HBehery">
-            <div className="absolute inset-0 bg-gradient-to-br from-rose-500 to-yellow-200 dark:from-indigo-500 dark:to-teal-500 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
+            <div className="absolute inset-0 bg-gradient-to-br from-rose-500 to-orange-200 dark:from-violet-800 dark:to-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
 
-            <VscGithubAlt className="relative  z-10" size={23} />
+            <VscGithubAlt className="relative  z-10" size={24} />
           </a>
         </button>
         <div className="w-px h-6 bg-gray-300" /> {/* Vertical Separator */}
@@ -61,9 +62,9 @@ const NavBar = () => {
         >
           {/* Projects Icon */}
           <Link href="/projects">
-            <div className="absolute inset-0 bg-gradient-to-br from-rose-500 to-yellow-200 dark:from-indigo-500 dark:to-teal-500 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
+            <div className="absolute inset-0 bg-gradient-to-br from-rose-500 to-orange-200 dark:from-violet-800 dark:to-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
 
-            <GrProjects className="relative z-10" size={20} />
+            <GrProjects className="relative z-10" size={21} />
           </Link>
         </button>
         <button
@@ -72,7 +73,7 @@ const NavBar = () => {
         >
           {/* Resume Icon */}
           <a href="/Resume-Hamzah_Behery.pdf" download>
-            <div className="absolute inset-0 bg-gradient-to-br from-rose-500 to-yellow-200 dark:from-indigo-500 dark:to-teal-500 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
+            <div className="absolute inset-0 bg-gradient-to-br from-rose-500 to-orange-200 dark:from-violet-800 dark:to-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
 
             <IoNewspaperOutline className="relative z-10" size={25} />
           </a>
