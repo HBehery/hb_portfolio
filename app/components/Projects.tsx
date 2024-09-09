@@ -138,7 +138,7 @@ const Column: React.FC<ColumnProps> = ({ images, y = 0 }) => {
               </Link>
             ) : (
               <Image
-                className="object-cover rounded-[2vw] lg:rounded-[0.5vw] hue-rotate-[120deg] dark:hue-rotate-[15deg] shadow-[rgba(0,0,0,0.5)_1px_1px_20px_1px] dark:shadow-[rgba(255,255,255,0.25)_1px_1px_15px_6px]"
+                className="object-cover rounded-[2vw] lg:rounded-[0.5vw] hue-rotate-[120deg] dark:hue-rotate-[20deg] shadow-[rgba(0,0,0,0.5)_1px_1px_20px_1px] dark:shadow-[rgba(255,255,255,0.25)_1px_1px_15px_6px]"
                 src={`/project_images/${src}`}
                 fill
                 alt="project image"

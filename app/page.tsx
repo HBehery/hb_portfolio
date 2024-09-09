@@ -365,7 +365,7 @@ const HomePage = () => {
             >
               <img
                 className="dark:brightness-100 brightness-0"
-                src="stars2.svg"
+                src="stars1.svg"
               />
             </motion.div>
             <motion.div
@@ -374,7 +374,7 @@ const HomePage = () => {
             >
               <img
                 className="dark:brightness-100 brightness-0"
-                src="stars5.svg"
+                src="stars2.svg"
               />
             </motion.div>
           </div>
