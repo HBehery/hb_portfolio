@@ -10,12 +10,11 @@ A brief description about myself and what path led me to where I am now, along w
 
 ## To-Do List:
 
-- [x] NavBar
-- [x] Animated Name Emblem
+- [x] NavBar + Animated Name Emblem
 - [x] Dark Mode
 - [x] Link other socials
-- [ ] Homepage Design
-- [ ] Add in my projects over the years
-- [ ] Hobbies Page + Images
-- [ ] Add image of completed website to readme
+- [x] Homepage + projects Design
 - [ ] Embed resume into website
+- [ ] Dedicated Projects Page
+- [ ] Images in About Section
+
