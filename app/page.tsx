@@ -27,13 +27,13 @@ const HomePage = () => {
     offset: ["start start", "end start"],
   });
 
-  // const { scrollYProgress: projectsScrollProgress } = useScroll({
-  //   target: projectsRef,
-  //   offset: ["start start", "end start"],
-  // });
+  const { scrollYProgress: projectsScrollProgress } = useScroll({
+    target: projectsRef,
+    offset: ["start start", "end start"],
+  });
 
   // Transforms for navbar movement
-  // const navY = useTransform(projectsScrollProgress, [0, 0.1], ["0%", "-100%"]);
+  const navY = useTransform(projectsScrollProgress, [0, 0.1], ["0%", "-100%"]);
 
   // Background transforms
   const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "50%"]);
@@ -45,7 +45,7 @@ const HomePage = () => {
       <motion.div
         id="nav_bar"
         className="flex w-full fixed top-0 z-50"
-        // style={{ y: navY }}
+        style={{ y: navY }}
       >
         <NavBar />
       </motion.div>
@@ -381,7 +381,7 @@ const HomePage = () => {
         </div>
 
         {/* Projects Section */}
-        <div>
+        <div ref={projectsRef} className="max-[700px]:hidden">
           <ProjectsPage />
         </div>
         <div id="footer" className="h-[33vh] bg-black/90 dark:bg-black/70  ">
