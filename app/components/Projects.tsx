@@ -113,8 +113,8 @@ const Column: React.FC<ColumnProps> = ({ images, y = 0 }) => {
             className={`relative w-full h-[300px] sm:h-[20rem] sm:min-w-[200px] transition-all
             ${
               src === "image5.png"
-                ? "grayscale-0 blur-none"
-                : "grayscale hover:grayscale-0 blur-[1px] hover:blur-[0px]"
+                ? "grayscale-0"
+                : "grayscale hover:grayscale-0"
             } 
             transition-all`}
           >
