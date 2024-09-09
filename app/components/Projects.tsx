@@ -59,13 +59,12 @@ const ProjectsPage = () => {
   useEffect(() => {
     const lenis = new Lenis();
 
-    const raf = throttle((time: DOMHighResTimeStamp) => {
+    function raf(time: DOMHighResTimeStamp): void {
       lenis.raf(time);
       requestAnimationFrame(raf);
-    }, 16); // Throttle to ~60fps
+    }
 
     requestAnimationFrame(raf);
-    return () => lenis.destroy(); // Clean up Lenis
   }, []);
 
   return (
