@@ -6,6 +6,7 @@ import { motion, useScroll, useTransform, MotionValue } from "framer-motion";
 import Lenis from "lenis";
 import useDimension from "@/useDimension";
 import Link from "next/link";
+import throttle from "lodash/throttle";
 
 const images = [
   { src: "image1.png", href: "https://trispects.com/" },
@@ -58,12 +59,13 @@ const ProjectsPage = () => {
   useEffect(() => {
     const lenis = new Lenis();
 
-    function raf(time: DOMHighResTimeStamp): void {
+    const raf = throttle((time: DOMHighResTimeStamp) => {
       lenis.raf(time);
       requestAnimationFrame(raf);
-    }
+    }, 16); // Throttle to ~60fps
 
     requestAnimationFrame(raf);
+    return () => lenis.destroy(); // Clean up Lenis
   }, []);
 
   return (
