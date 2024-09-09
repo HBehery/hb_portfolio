@@ -402,7 +402,7 @@ const HomePage = () => {
             </div>
             <div
               id="text container"
-              className="dark:text-gray-100 flex flex-col justify-left px-6 space-y-8"
+              className="text-gray-100 flex flex-col justify-left px-6 space-y-8"
             >
               <div className="text-xl md:text-2xl max-[470px]:text-lg">
                 <h1 id="Title" className="">
