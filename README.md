@@ -6,7 +6,7 @@ Hello! Welcome to my current attempt to best capture my identity through a [webs
 
 A brief description about myself and what path led me to where I am now, along with my hobbies (both tehcnical and non-technical), projects, and resume. Certainly more to come in the future!
 
-![Current homepage:](coming_soon.png)
+![Current homepage:](homepage.png)
 
 ## To-Do List:
 
