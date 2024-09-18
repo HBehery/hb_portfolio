@@ -157,17 +157,18 @@ const HomePage = () => {
                 <ul className="list-disc list-inside text-left pl-4 sm:pl-4 xl:pl-6 py-4 space-y-2">
                   <li style={{ textIndent: "-1.5em" }}>
                     <span className="font-extrabold">Languages:</span>{" "}
-                    Javascript, CSS, Python, SQL, HTML5
+                    Javascript, CSS, Python, SQL, HTML5, C, C++
                   </li>
                   <li style={{ textIndent: "-1.5em" }}>
                     <span className="font-extrabold">
                       Fullstack Development:
                     </span>{" "}
-                    TypeScript, React, Next.JS, TailwindCSS, Node.JS, Flask
+                    TypeScript, React, Next.JS, TailwindCSS, Node.JS, Apache,
+                    Flask
                   </li>
                   <li style={{ textIndent: "-1.5em" }}>
                     <span className="font-extrabold">Other Tools:</span> Git,
-                    Docker, Postman, PyTorch, TensorFlow
+                    Docker, Vercel, Postman, PyTorch, TensorFlow, Jira
                   </li>
                 </ul>
                 <p className="">
@@ -204,14 +205,14 @@ const HomePage = () => {
                     <a href="https://trispects.com" className="underline">
                       website
                     </a>{" "}
-                    using native HTML/CSS/JavaScript, Bootstrap, and CSS asset
+                    using native JavaScript/HTML/CSS, Bootstrap, and CSS asset
                     libraries to ensure a <b>100% responsive design</b> and
                     seamless user experience across all devices.
                   </li>
                   <li style={{ textIndent: "-1.5em" }}>
-                    Fully engineered the website backend architecture and
-                    RESTful API using a Python Django framework (Wagtail),
-                    enabling seamless frontend to backend integration.
+                    Engineered the website backend architecture and RESTful API
+                    using a Python Django framework (Wagtail), enabling seamless
+                    frontend to backend integration.
                   </li>
                   <li style={{ textIndent: "-1.5em" }}>
                     Implemented dynamic elements through advanced JavaScript DOM
@@ -235,18 +236,19 @@ const HomePage = () => {
                 </div>
                 <ul className="list-disc list-inside text-left pl-4 sm:pl-4 xl:pl-12 pt-4 space-y-4 text-[15px]">
                   <li style={{ textIndent: "-1.5em" }}>
+                    Built an application (Flutter/Python) optimizing appointment
+                    setting process used by{" "}
+                    <b>1.7+ million Reliance Home Comfort </b>
+                    customers in Canada. Used Python Flask to engineer a RESTful
+                    API to communicate suitable appointment dates between the
+                    frontend and backend based on customer needs and stakeholder
+                    requirements.
+                  </li>
+                  <li style={{ textIndent: "-1.5em" }}>
                     Implemented two pre-trained AI models to create a tool
                     (Flutter/Python) which summarizes corporate group chat
                     messages into action items, for use by a K-12 school staff
                     team housing <b>2000+ students</b>.
-                  </li>
-                  <li style={{ textIndent: "-1.5em" }}>
-                    Built an application (Flutter/Python) optimizing appointment
-                    setting process used by{" "}
-                    <b>1.7+ million Reliance Home Comfort </b>
-                    customers in Canada. Used Flask Python library to engineer a
-                    RESTful API to communicate suitable appointment dates
-                    between the frontend and backend based on customer needs.
                   </li>
                   <li style={{ textIndent: "-1.5em" }}>
                     Developed a strategic plan to leverage AI NLP solutions,
@@ -274,7 +276,7 @@ const HomePage = () => {
                 </h1>
                 <div className="flex flex-row text-gray-500 dark:text-gray-300 sm:pl-4 pl-2">
                   <p className="text-rose-500 dark:text-indigo-400 font-extrabold">
-                    TypeScript, Next.JS, TailwindCSS, MySQL
+                    TypeScript, Next.JS, TailwindCSS, SQL
                   </p>
                 </div>
                 <ul className="list-disc list-inside text-left pl-4 sm:pl-4 xl:pl-12 space-y-4 text-[15px]">

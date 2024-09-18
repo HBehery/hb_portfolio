@@ -73,7 +73,7 @@ const NavBar = () => {
         >
           {/* Resume Icon */}
           <a
-            href="/Resume-Hamzah_Behery.pdf"
+            href="/Resume-HamzahBehery.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
