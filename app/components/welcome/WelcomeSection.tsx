@@ -26,7 +26,7 @@ const WelcomeSection = () => {
     <div
       id="hello_section"
       ref={ref}
-      className={`${inter.className} text-gray-900 dark:text-white relative flex flex-col lg:flex-row justify-center text-center items-center transition-colors w-full z-40`}
+      className={`${inter.className} text-gray-900 dark:text-white relative flex flex-col lg:flex-row justify-center text-center items-center transition-colors w-full z-40 max-[699px]:pb-[10vh]`}
     >
       {/* Left side Hello Text */}
       <div

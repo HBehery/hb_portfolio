@@ -22,7 +22,7 @@ const HomePage = () => {
     <div id="home_page" className="">
       <WelcomeSection />
 
-      <div>
+      <div className="max-[699px]:hidden">
         <ProjectsPage />
       </div>
 
