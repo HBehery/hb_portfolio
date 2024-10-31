@@ -1,16 +1,23 @@
 "use client";
 
-import React, { useRef, useEffect } from "react";
+import React, { useRef } from "react";
+import { Inter } from "next/font/google";
 import Image from "next/image";
 import { motion, useScroll, useTransform, MotionValue } from "framer-motion";
-import Lenis from "lenis";
-import useDimension from "@/useDimension";
+import useDimension from "@/app/hooks/useDimension";
 import Link from "next/link";
-import throttle from "lodash/throttle";
+
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["400", "800"],
+});
 
 const images = [
   { src: "image1.png", href: "https://trispects.com/" },
-  { src: "image2.png", href: "https://github.com/HBehery/Hangman" },
+  {
+    src: "image2.png",
+    href: "https://github.com/HBehery/Hangman",
+  },
   {
     src: "image3.png",
     href: "https://github.com/HBehery/AegisLock-AI-Password-Manager",
@@ -29,7 +36,10 @@ const images = [
     src: "image8.png",
     href: "https://github.com/HBehery/Post-Secondary-Guidance",
   },
-  { src: "image9.png", href: "https://github.com/HBehery/realityquest" },
+  {
+    src: "image9.png",
+    href: "https://github.com/HBehery/realityquest",
+  },
 ];
 
 const ProjectsPage = () => {
@@ -55,17 +65,6 @@ const ProjectsPage = () => {
     [0, 1],
     [0, height * 3.6]
   );
-
-  useEffect(() => {
-    const lenis = new Lenis();
-
-    function raf(time: DOMHighResTimeStamp): void {
-      lenis.raf(time);
-      requestAnimationFrame(raf);
-    }
-
-    requestAnimationFrame(raf);
-  }, []);
 
   return (
     <div id="projects">
@@ -121,7 +120,9 @@ const Column: React.FC<ColumnProps> = ({ images, y = 0 }) => {
           >
             {src === "image5.png" && (
               <div className="absolute z-10 inset-0 flex justify-center items-center">
-                <h1 className="text-stone-800 hover:text-stone-700 dark:text-gray-800 dark:hover:text-gray-700 sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold z-40 text-center transition-colors">
+                <h1
+                  className={`${inter.className} text-stone-800 hover:text-stone-700 dark:text-gray-800 dark:hover:text-gray-700 sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold  z-40 text-center transition-colors`}
+                >
                   <Link href={"/projects"}>
                     MY <br /> PROJECTS
                   </Link>
@@ -132,7 +133,7 @@ const Column: React.FC<ColumnProps> = ({ images, y = 0 }) => {
               <Link href={href}>
                 <Image
                   className="object-cover rounded-[2vw] lg:rounded-[0.5vw]"
-                  src={`/project_images/${src}`}
+                  src={`/project_assets/${src}`}
                   fill
                   alt="project image"
                 />
@@ -140,7 +141,7 @@ const Column: React.FC<ColumnProps> = ({ images, y = 0 }) => {
             ) : (
               <Image
                 className="object-cover rounded-[2vw] lg:rounded-[0.5vw] hue-rotate-[120deg] dark:hue-rotate-[20deg] shadow-[rgba(0,0,0,0.5)_1px_1px_20px_1px] dark:shadow-[rgba(255,255,255,0.25)_1px_1px_15px_6px]"
-                src={`/project_images/${src}`}
+                src={`/project_assets/${src}`}
                 fill
                 alt="project image"
               />
