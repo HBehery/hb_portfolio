@@ -2,7 +2,7 @@
 import React from "react";
 import { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
-import ThemeToggle from "../ThemeToggle";
+import ThemeToggle from "../navbar/ThemeToggle";
 import SideBar from "./menu/SideBar";
 
 const MobileNav = () => {
