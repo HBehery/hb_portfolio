@@ -27,7 +27,7 @@ const Footer = () => {
             <h1 id="Title" className="">
               MADE BY: HAMZAH BEHERY
             </h1>
-            <h1 id="Subtitle" className="dark:text-indigo-400 text-rose-500">
+            <h1 id="Subtitle" className="dark:text-dark text-light">
               REACH ME AT:
             </h1>
             <p

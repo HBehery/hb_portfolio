@@ -45,7 +45,7 @@ const WelcomeSection = () => {
           className="flex flex-row w-full justify-center py-8 sm:space-x-[30px] space-x-12 transition-all max-[400px]:text-[14px] xl:text-[18px] lg:text-[16px]"
         >
           <div
-            className="text-rose-500 hover:text-rose-300 dark:text-indigo-400 dark:hover:text-indigo-300 font-extrabold sm:max-w-full max-w-[18%] cursor-pointer"
+            className="text-light hover:text-light_hover dark:text-dark dark:hover:text-dark_hover font-extrabold sm:max-w-full max-w-[18%] cursor-pointer"
             onClick={() => {
               const element = document.getElementById("about");
               if (element) {
@@ -60,7 +60,7 @@ const WelcomeSection = () => {
             </p>
           </div>
           <div
-            className="text-rose-500 hover:text-rose-300 dark:text-indigo-400 dark:hover:text-indigo-300 font-extrabold sm:max-w-full max-w-[20%] cursor-pointer"
+            className="text-light hover:text-light_hover dark:text-dark dark:hover:text-dark_hover font-extrabold sm:max-w-full max-w-[20%] cursor-pointer"
             onClick={() => {
               const element = document.getElementById("experience");
               if (element) {
@@ -75,7 +75,7 @@ const WelcomeSection = () => {
             </p>
           </div>
           <div
-            className="text-rose-500 hover:text-rose-300 dark:text-indigo-400 dark:hover:text-indigo-300 font-extrabold sm:max-w-full max-w-[20%] cursor-pointer"
+            className="text-light hover:text-light_hover dark:text-dark dark:hover:text-dark_hover font-extrabold sm:max-w-full max-w-[20%] cursor-pointer"
             onClick={() => {
               const element = document.getElementById("projects");
               if (element) {
@@ -105,7 +105,7 @@ const WelcomeSection = () => {
             <p>
               I am a fullstack software developer based in Toronto, Ontario. I
               will be graduating from the
-              <span className="text-rose-500 dark:text-indigo-400 font-extrabold">
+              <span className="text-light dark:text-dark font-extrabold">
                 &nbsp;University of Toronto&nbsp;
               </span>
               as a&nbsp;
@@ -134,7 +134,7 @@ const WelcomeSection = () => {
             <p className="">
               Outside of my career, I am a youth mentor, bodybuilder, and
               GFX/VFX designer (
-              <span className="text-rose-500 dark:text-indigo-400 underline font-extrabold">
+              <span className="text-light dark:text-dark underline font-extrabold">
                 images coming soon
               </span>
               ).
@@ -152,7 +152,7 @@ const WelcomeSection = () => {
               </a>
             </h1>
             <div className="flex flex-row text-gray-500 dark:text-gray-300 sm:pl-4 pl-2 text-left">
-              <p className="text-rose-500 dark:text-indigo-400 font-extrabold">
+              <p className="text-light dark:text-dark font-extrabold">
                 Fullstack Software Developer
               </p>
               <p className="max-[500px]:hidden">&nbsp;• Sep 2023 - Jan 2024</p>
@@ -185,7 +185,7 @@ const WelcomeSection = () => {
               SIRTTS Inc.
             </h1>
             <div className="flex flex-row text-gray-500 dark:text-gray-300 sm:text-md sm:pl-4 pl-2 text-left">
-              <p className="text-rose-500 dark:text-indigo-400 font-extrabold">
+              <p className="text-light dark:text-dark font-extrabold">
                 Fullstack Software Developer
               </p>
               <p className="max-[500px]:hidden">&nbsp;• May 2023 - Sep 2023</p>
@@ -231,7 +231,7 @@ const WelcomeSection = () => {
               </a>
             </h1>
             <div className="flex flex-row text-gray-500 dark:text-gray-300 sm:pl-4 pl-2">
-              <p className="text-rose-500 dark:text-indigo-400 font-extrabold">
+              <p className="text-light dark:text-dark font-extrabold">
                 TypeScript, Next.JS, TailwindCSS, SQL
               </p>
             </div>
@@ -252,7 +252,7 @@ const WelcomeSection = () => {
               </a>
             </h1>
             <div className="flex flex-row text-gray-500 dark:text-gray-300 sm:pl-4 pl-2">
-              <p className="text-rose-500 dark:text-indigo-400 font-extrabold">
+              <p className="text-light dark:text-dark font-extrabold">
                 Python + Tkinter
               </p>
             </div>
@@ -273,7 +273,7 @@ const WelcomeSection = () => {
               </a>
             </h1>
             <div className="flex flex-row text-gray-500 dark:text-gray-300 sm:pl-4 pl-2">
-              <p className="text-rose-500 dark:text-indigo-400 font-extrabold">
+              <p className="text-light dark:text-dark font-extrabold">
                 Python + Tkinter
               </p>
             </div>
@@ -294,7 +294,7 @@ const WelcomeSection = () => {
               </a>
             </h1>
             <div className="flex flex-row text-gray-500 dark:text-gray-300 sm:pl-4 pl-2">
-              <p className="text-rose-500 dark:text-indigo-400 font-extrabold">
+              <p className="text-light dark:text-dark font-extrabold">
                 TypeScript, Next.JS, TailwindCSS
               </p>
             </div>

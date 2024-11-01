@@ -22,7 +22,7 @@ const MobileNav = () => {
           onClick={toggleSidebar}
         >
           {/* Hamburger Icon */}
-          <div className="absolute inset-0  bg-gradient-to-br from-rose-500 to-yellow-200 dark:from-indigo-500 dark:to-teal-500 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
+          <div className="absolute inset-0  bg-gradient-to-br from-grad1light to-yellow-200 dark:from-indigo-500 dark:to-teal-500 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
           <RxHamburgerMenu className="relative  z-10" size={26} />
         </button>
       </div>

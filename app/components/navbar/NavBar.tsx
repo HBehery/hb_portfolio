@@ -26,7 +26,7 @@ const NavBar = () => {
           {/* Home Icon */}
           <Link href="/">
             {/*  dark:from-indigo-500 dark:to-teal-500 */}
-            <div className="absolute inset-0 bg-gradient-to-br from-rose-500 to-orange-200 dark:from-violet-800 dark:to-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
+            <div className="absolute inset-0 bg-gradient-to-br from-grad1light to-grad2light dark:from-grad1dark dark:to-grad2dark opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
 
             <SlHome className="relative  z-10" size={24} />
           </Link>
@@ -39,7 +39,7 @@ const NavBar = () => {
         >
           {/* LinkedIn Icon */}
           <a href="https://www.linkedin.com/in/hamzah-behery/">
-            <div className="absolute inset-0 bg-gradient-to-br from-rose-500 to-orange-200 dark:from-violet-800 dark:to-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
+            <div className="absolute inset-0 bg-gradient-to-br from-grad1light to-grad2light dark:from-grad1dark dark:to-grad2dark opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
 
             <AiOutlineLinkedin className="relative  z-10" size={24} />
           </a>
@@ -50,7 +50,7 @@ const NavBar = () => {
         >
           {/* GitHub Icon */}
           <a href="https://github.com/HBehery">
-            <div className="absolute inset-0 bg-gradient-to-br from-rose-500 to-orange-200 dark:from-violet-800 dark:to-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
+            <div className="absolute inset-0 bg-gradient-to-br from-grad1light to-grad2light dark:from-grad1dark dark:to-grad2dark opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
 
             <VscGithubAlt className="relative  z-10" size={24} />
           </a>
@@ -62,7 +62,7 @@ const NavBar = () => {
         >
           {/* Projects Icon */}
           <Link href="/projects">
-            <div className="absolute inset-0 bg-gradient-to-br from-rose-500 to-orange-200 dark:from-violet-800 dark:to-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
+            <div className="absolute inset-0 bg-gradient-to-br from-grad1light to-grad2light dark:from-grad1dark dark:to-grad2dark opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
 
             <GrProjects className="relative z-10" size={21} />
           </Link>
@@ -77,7 +77,7 @@ const NavBar = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="absolute inset-0 bg-gradient-to-br from-rose-500 to-orange-200 dark:from-violet-800 dark:to-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
+            <div className="absolute inset-0 bg-gradient-to-br from-grad1light to-grad2light dark:from-grad1dark dark:to-grad2dark opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
 
             <IoNewspaperOutline className="relative z-10" size={25} />
           </a>
