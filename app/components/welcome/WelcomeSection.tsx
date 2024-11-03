@@ -103,7 +103,7 @@ const WelcomeSection = () => {
           </h1>
           <div className="flex flex-col text-left pl-4 justify-between h-full pt-6 pb-3">
             <p>
-              I am a fullstack software developer based in Toronto, Ontario. I
+              I am a fullstack software engineer based in Toronto, Ontario. I
               will be graduating from the
               <span className="text-light dark:text-dark font-extrabold">
                 &nbsp;University of Toronto&nbsp;
@@ -153,7 +153,7 @@ const WelcomeSection = () => {
             </h1>
             <div className="flex flex-row text-gray-500 dark:text-gray-300 sm:pl-4 pl-2 text-left">
               <p className="text-light dark:text-dark font-extrabold">
-                Fullstack Software Developer
+                Lead Fullstack Engineer
               </p>
               <p className="max-[500px]:hidden">&nbsp;• Sep 2023 - Jan 2024</p>
             </div>
@@ -186,7 +186,7 @@ const WelcomeSection = () => {
             </h1>
             <div className="flex flex-row text-gray-500 dark:text-gray-300 sm:text-md sm:pl-4 pl-2 text-left">
               <p className="text-light dark:text-dark font-extrabold">
-                Fullstack Software Developer
+                Fullstack Engineer
               </p>
               <p className="max-[500px]:hidden">&nbsp;• May 2023 - Sep 2023</p>
             </div>
