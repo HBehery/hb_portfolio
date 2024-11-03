@@ -12,7 +12,7 @@ import MobileNav from "../mobile_sidebar/MobileNav";
 
 const NavBar = () => {
   return (
-    <div className="flex w-full top-0 py-6 px-0 z-50  sticky min-[400px]:px-5 bg-gray-200/5 dark:bg-black/5 backdrop-blur-md transition-colors text-gray-800 dark:text-white">
+    <div className="flex w-full top-0 py-6 px-0 z-50  sticky min-[400px]:px-5 bg-gray-200/5 dark:bg-black/5 backdrop-blur-md transition-colors text-stone-800 dark:text-white">
       <div className="hidden">
         <FontToggle />
       </div>
