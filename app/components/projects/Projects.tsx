@@ -121,7 +121,7 @@ const Column: React.FC<ColumnProps> = ({ images, y = 0 }) => {
             {src === "image5.png" && (
               <div className="absolute z-10 inset-0 flex justify-center items-center">
                 <h1
-                  className={`${inter.className} text-stone-800 hover:text-stone-700 dark:text-gray-800 dark:hover:text-gray-700 sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold  z-40 text-center transition-colors`}
+                  className={`${inter.className} text-stone-800  dark:text-stone-100   hover:text-stone-700  dark:hover:text-stone-300 sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold  z-40 text-center transition-colors`}
                 >
                   <Link href={"/projects"}>
                     MY <br /> PROJECTS
@@ -141,7 +141,7 @@ const Column: React.FC<ColumnProps> = ({ images, y = 0 }) => {
             ) : (
               <Image
                 // hue-rotate-[120deg] dark:hue-rotate-[20deg]
-                className="object-cover rounded-[2vw] lg:rounded-[0.5vw] hue-rotate-[120deg] shadow-[rgba(0,0,0,0.5)_1px_1px_20px_1px] dark:shadow-[rgba(255,255,255,0.25)_1px_1px_15px_6px]"
+                className="object-cover rounded-[2vw] hue-rotate-[-20deg] grayscale-[30%] lg:rounded-[0.5vw] shadow-[rgba(0,0,0,0.5)_1px_1px_20px_1px] dark:shadow-[rgba(255,255,255,0.25)_1px_1px_15px_6px]"
                 src={`/project_assets/${src}`}
                 fill
                 alt="project image"
