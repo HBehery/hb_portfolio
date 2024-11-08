@@ -15,6 +15,5 @@ A brief description about myself and what path led me to where I am now, along w
 - [x] Link other socials
 - [x] Homepage + projects Design
 - [ ] Lazy Loading on Projects Section
-- [ ] Dedicated Projects Page
 - [ ] Images in About Section
 
