@@ -18,12 +18,12 @@ const NavBar = () => {
       </div>
 
       {/* ICONS */}
+      {/* Home Icon */}
       <div className="flex rounded-md py-2 px-2 space-x-4 align-middle items-center w-full justify-between sm:justify-normal">
         <button
           className="relative flex items-center justify-center p-2 rounded-md bg-transparent overflow-hidden group"
           aria-label="HomePage Button"
         >
-          {/* Home Icon */}
           <Link href="/">
             {/*  dark:from-indigo-500 dark:to-teal-500 */}
             <div className="absolute inset-0 bg-gradient-to-br from-grad1light to-grad2light dark:from-grad1dark dark:to-grad2dark opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
@@ -33,22 +33,22 @@ const NavBar = () => {
         </button>
         <div className="w-px x h-6 bg-gray-300"></div>{" "}
         {/* Vertical Separator */}
+        {/* LinkedIn Icon */}
         <button
           className="relative flex items-center justify-center p-2 rounded-md bg-transparent overflow-hidden group"
           aria-label="LinkedIn Profile Button"
         >
-          {/* LinkedIn Icon */}
           <a href="https://www.linkedin.com/in/hamzah-behery/">
             <div className="absolute inset-0 bg-gradient-to-br from-grad1light to-grad2light dark:from-grad1dark dark:to-grad2dark opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
 
             <AiOutlineLinkedin className="relative  z-10" size={24} />
           </a>
         </button>
+        {/* GitHub Icon */}
         <button
           className="relative flex items-center justify-center p-2 rounded-md bg-transparent overflow-hidden group"
-          aria-label="GitHub Profile Button"
+          aria-label="Visit GitHub Profile"
         >
-          {/* GitHub Icon */}
           <a href="https://github.com/HBehery">
             <div className="absolute inset-0 bg-gradient-to-br from-grad1light to-grad2light dark:from-grad1dark dark:to-grad2dark opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
 
@@ -56,22 +56,22 @@ const NavBar = () => {
           </a>
         </button>
         <div className="w-px h-6 bg-gray-300" /> {/* Vertical Separator */}
+        {/* Projects Icon */}
         <button
           className="relative flex items-center justify-center p-2 rounded-md bg-transparent overflow-hidden group"
-          aria-label="Projects Page Button"
+          aria-label="Visit Blog Page"
         >
-          {/* Projects Icon */}
-          <Link href="/projects">
+          <Link href="/blog">
             <div className="absolute inset-0 bg-gradient-to-br from-grad1light to-grad2light dark:from-grad1dark dark:to-grad2dark opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
 
             <GrProjects className="relative z-10" size={21} />
           </Link>
         </button>
+        {/* Resume Icon */}
         <button
           className="relative flex items-center justify-center p-2 rounded-md bg-transparent overflow-hidden group"
           aria-label="Resume Page Button"
         >
-          {/* Resume Icon */}
           <a
             href="/assets/Resume-HamzahBehery.pdf"
             target="_blank"

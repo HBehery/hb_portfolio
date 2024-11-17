@@ -121,11 +121,9 @@ const Column: React.FC<ColumnProps> = ({ images, y = 0 }) => {
             {src === "image5.png" && (
               <div className="absolute z-10 inset-0 flex justify-center items-center">
                 <h1
-                  className={`${inter.className} text-stone-800  dark:text-stone-100   hover:text-stone-700  dark:hover:text-stone-300 sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold  z-40 text-center transition-colors`}
+                  className={`${inter.className} text-stone-800  dark:text-stone-100 sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold  z-40 text-center transition-colors`}
                 >
-                  <Link href={"/projects"}>
-                    MY <br /> PROJECTS
-                  </Link>
+                  MY <br /> PROJECTS
                 </h1>
               </div>
             )}
