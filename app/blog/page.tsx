@@ -1,13 +1,35 @@
-import React from "react";
+import BlogList from "../components/blog/BlogCardList";
 
-const BlogPage = () => {
+interface BlogPost {
+  title: string;
+  description: string;
+  slug: string;
+}
+
+// Example data. Replace this with dynamic content later.
+const posts: BlogPost[] = [
+  {
+    title: "First Post",
+    description: "Introduction to my blog.",
+    slug: "first-post",
+  },
+  {
+    title: "Next.js Tips",
+    description: "Learn how to optimize Next.js apps.",
+    slug: "nextjs-tips",
+  },
+  {
+    title: "TailwindCSS Tricks",
+    description: "Boost your styling with Tailwind.",
+    slug: "tailwindcss-tricks",
+  },
+];
+
+export default function BlogPage() {
   return (
-    <div>
-      <div className="dark:text-white text-gray-800 font-extrabold text-4xl sm:text-6xl flex w-[100vw] h-[70vh] items-center justify-center">
-        <h1>COMING SOON.</h1>
-      </div>
+    <div className="container mx-auto p-6 text-gray-700 dark:text-white">
+      <h1 className="text-4xl font-bold mb-6">Blog</h1>
+      <BlogList posts={posts} />
     </div>
   );
-};
-
-export default BlogPage;
+}
