@@ -1,33 +1,37 @@
 import BlogList from "../components/blog/BlogCardList";
 
-interface BlogPost {
-  title: string;
-  description: string;
-  slug: string;
-}
-
-// Example data. Replace this with dynamic content later.
-const posts: BlogPost[] = [
+const posts = [
   {
-    title: "First Post",
-    description: "Introduction to my blog.",
-    slug: "first-post",
+    title: "Pinned Post",
+    description: "This is the pinned post.",
+    slug: "pinned-post",
+    imageSrc: "/images/pinned-post.jpg",
+    imageAlt: "Pinned post image",
+    isPinned: true,
   },
   {
     title: "Next.js Tips",
     description: "Learn how to optimize Next.js apps.",
     slug: "nextjs-tips",
+    imageSrc: "/images/nextjs-tips.jpg",
   },
   {
     title: "TailwindCSS Tricks",
     description: "Boost your styling with Tailwind.",
     slug: "tailwindcss-tricks",
+    imageSrc: "/images/tailwindcss-tricks.jpg",
+  },
+  {
+    title: "First Post",
+    description: "Introduction to my blog.",
+    slug: "first-post",
+    imageSrc: "/images/first-post.jpg",
   },
 ];
 
 export default function BlogPage() {
   return (
-    <div className="container mx-auto p-6 text-gray-700 dark:text-white">
+    <div>
       <h1 className="text-4xl font-bold mb-6">Blog</h1>
       <BlogList posts={posts} />
     </div>
