@@ -119,16 +119,18 @@ const WelcomeSection = () => {
             </p>
             <ul className="list-disc list-inside text-left pl-4 sm:pl-4 xl:pl-6 py-4 space-y-2">
               <li style={{ textIndent: "-1.5em" }}>
-                <span className="font-extrabold">Languages:</span> Javascript,
-                CSS, Python, SQL, HTML5, C, C++
+                <span className="font-extrabold">Languages:</span> JavaScript,
+                Python, SQL, Go, Kotlin
               </li>
               <li style={{ textIndent: "-1.5em" }}>
-                <span className="font-extrabold">Fullstack Development:</span>{" "}
-                TypeScript, React, Next.JS, TailwindCSS, Node.JS, Apache, Flask
+                <span className="font-extrabold">Libraries/Frameworks:</span>{" "}
+                TypeScript, React, Next.JS, Node.JS, Django, Flask, PyTorch,
+                TailwindCSS
               </li>
               <li style={{ textIndent: "-1.5em" }}>
-                <span className="font-extrabold">Other Tools:</span> Git,
-                Docker, Vercel, Postman, PyTorch, TensorFlow, Jira
+                <span className="font-extrabold">Developer Tools:</span> Git,
+                AWS, Git, Docker, Kubernetes, Vercel, Postman, Firebase, Apache,
+                TensorFlow, Jira
               </li>
             </ul>
             <p className="">
@@ -168,15 +170,16 @@ const WelcomeSection = () => {
                 user experience across all devices.
               </li>
               <li style={{ textIndent: "-1.5em" }}>
-                Engineered the website backend architecture and RESTful API
-                using a Python Django framework (Wagtail), enabling seamless
+                Engineered the website backend architecture and{" "}
+                <b>RESTful API</b> using a{" "}
+                <b>Python Django framework (Wagtail)</b>, enabling seamless
                 frontend to backend integration.
               </li>
               <li style={{ textIndent: "-1.5em" }}>
-                Implemented dynamic elements through advanced JavaScript DOM
-                manipulation and facilitated form submissions while adhering to
-                WCAG 2.1 standards, ensuring a seamless experience for
-                <b> 2.6+ million users</b>.
+                Implemented dynamic JavaScript components by leveraging{" "}
+                <b>event delegation</b> and <b>mutation observers</b>, while
+                ensuring a seamless interface for <b>7000+ users</b> by adhering
+                to the WCAG 2.1 accessibility standards
               </li>
             </ul>
           </div>
@@ -201,16 +204,16 @@ const WelcomeSection = () => {
                 requirements.
               </li>
               <li style={{ textIndent: "-1.5em" }}>
-                Implemented two pre-trained AI models to create a tool
-                (Flutter/Python) which summarizes corporate group chat messages
-                into action items, for use by a K-12 school staff team housing{" "}
-                <b>2000+ students</b>.
+                Developed and spearheaded SIRTTS’s strategic plan to utilize{" "}
+                <b>AI NLP libraries</b> in the company’s tech-stack{" "}
+                <b>(Python, HTML/CSS3, JavaScript)</b> to enhance data
+                processing and client deliverables
               </li>
               <li style={{ textIndent: "-1.5em" }}>
-                Developed a strategic plan to leverage AI NLP solutions,
-                including PyTorch, for future integration into the company’s
-                existing technologies to enhance data processing and automation
-                capabilities.
+                Implemented two <b>fine-tuned AI models</b> to create a{" "}
+                <b>Python</b>-based tool (NumPy, PyTorch) summarizing
+                <b>300,000+ corporate chat messages</b> into action items,
+                boosting client workflow efficiency by <b>200%</b>
               </li>
             </ul>
           </div>

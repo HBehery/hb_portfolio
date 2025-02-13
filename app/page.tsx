@@ -21,11 +21,9 @@ const HomePage = () => {
   return (
     <div id="home_page" className="">
       <WelcomeSection />
-
-      <div className="max-[699px]:hidden">
+      <div id="projects_page" className="max-[699px]:hidden">
         <ProjectsPage />
       </div>
-
       <Footer />
     </div>
   );

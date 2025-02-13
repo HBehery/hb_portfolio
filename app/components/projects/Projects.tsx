@@ -16,7 +16,7 @@ const images = [
   { src: "image1.png", href: "https://trispects.com/" },
   {
     src: "image2.png",
-    href: "https://github.com/HBehery/Hangman",
+    href: "https://trispects.com/",
   },
   {
     src: "image3.png",
@@ -31,7 +31,7 @@ const images = [
     src: "image6.png",
     href: "https://github.com/HBehery/steal-the-diamond-cyoa",
   },
-  { src: "image7.png", href: "https://trispects.com/" },
+  { src: "image7.png", href: "https://github.com/HBehery/Hangman" },
   {
     src: "image8.png",
     href: "https://github.com/HBehery/Post-Secondary-Guidance",
@@ -76,7 +76,7 @@ const ProjectsPage = () => {
         className="h-[250vh] flex flex-row gap-[2vw] p-[2vw] box-border overflow-hidden"
       >
         <Column
-          images={[images[1], images[8], images[3], images[1], images[0]]}
+          images={[images[3], images[8], images[1], images[3], images[0]]}
           y={y}
         />
         <Column images={[images[2], images[4], images[5], images[2]]} y={y2} />
