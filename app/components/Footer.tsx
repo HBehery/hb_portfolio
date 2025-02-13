@@ -1,11 +1,14 @@
 import React from "react";
 import Image from "next/image";
+import { Montserrat } from "next/font/google";
+
+const montserrat = Montserrat({ subsets: ["latin"] });
 
 const Footer = () => {
   return (
     <div
       id="footer"
-      className="h-[33vh] bg-black/90 dark:bg-black/70 transition-all "
+      className={`h-[33vh] bg-black/90 dark:bg-black/70 transition-all ${montserrat.className}`}
     >
       <div
         id="footer_container"
