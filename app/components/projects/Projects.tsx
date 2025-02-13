@@ -128,7 +128,7 @@ const Column: React.FC<ColumnProps> = ({ images, y = 0 }) => {
               </div>
             )}
             {href ? (
-              <Link href={href}>
+              <Link href={href} target="_blank" rel="noopener noreferrer">
                 <Image
                   className="object-cover rounded-[2vw] lg:rounded-[0.5vw]"
                   src={`/project_assets/${src}`}

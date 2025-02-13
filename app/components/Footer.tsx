@@ -49,8 +49,19 @@ const Footer = () => {
             <a
               href="https://www.linkedin.com/in/hamzah-behery/"
               className="underline"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              LinkedIn Profile
+              LinkedIn
+            </a>{" "}
+            |{" "}
+            <a
+              href="https://github.com/HBehery/"
+              className="underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
             </a>
           </p>
         </div>
