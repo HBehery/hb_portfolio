@@ -62,7 +62,11 @@ const NavBar = () => {
           className="relative flex items-center justify-center p-2 rounded-md bg-transparent overflow-hidden group"
           aria-label="LinkedIn Profile Button"
         >
-          <a href="https://www.linkedin.com/in/hamzah-behery/">
+          <a
+            href="https://www.linkedin.com/in/hamzah-behery/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <div className="absolute inset-0 bg-gradient-to-br from-grad1light to-grad2light dark:from-grad1dark dark:to-grad2dark opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
 
             <AiOutlineLinkedin className="relative  z-10" size={24} />
@@ -73,14 +77,18 @@ const NavBar = () => {
           className="relative flex items-center justify-center p-2 rounded-md bg-transparent overflow-hidden group"
           aria-label="Visit GitHub Profile"
         >
-          <a href="https://github.com/HBehery">
+          <a
+            href="https://github.com/HBehery"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <div className="absolute inset-0 bg-gradient-to-br from-grad1light to-grad2light dark:from-grad1dark dark:to-grad2dark opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
 
             <VscGithubAlt className="relative  z-10" size={24} />
           </a>
         </button>
         <div className="w-px h-6 bg-gray-300" /> {/* Vertical Separator */}
-        {/* Projects Icon */}
+        {/* Blog Icon */}
         <button
           className="relative flex items-center justify-center p-2 rounded-md bg-transparent overflow-hidden group"
           aria-label="Visit Blog Page"
