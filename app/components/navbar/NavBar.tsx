@@ -1,4 +1,6 @@
-import React from "react";
+"use client";
+
+import React, { useEffect } from "react";
 import Link from "next/link";
 import ThemeToggle from "./ThemeToggle";
 import { SlHome } from "react-icons/sl";
@@ -11,8 +13,30 @@ import FontToggle from "./FontToggle";
 import MobileNav from "../mobile_sidebar/MobileNav";
 
 const NavBar = () => {
+  useEffect(() => {
+    const handleScroll = () => {
+      const projectsPage = document.getElementById("projects_page");
+      const navBar = document.getElementById("navbar");
+      if (projectsPage && navBar) {
+        const rect = projectsPage.getBoundingClientRect();
+        if (rect.top <= -65 && rect.bottom >= 0) {
+          navBar.style.transform = "translateY(-100%)";
+        } else {
+          navBar.style.transform = "translateY(0)";
+        }
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <div className="flex w-full top-0 py-6 px-0 z-50  sticky min-[400px]:px-5 bg-gray-200/5 dark:bg-black/5 backdrop-blur-md transition-colors text-stone-800 dark:text-white">
+    <div
+      id="navbar"
+      className={`flex w-full top-0 py-6 px-0 z-50 sticky
+      min-[400px]:px-5 bg-gray-200/5 dark:bg-black/5 backdrop-blur-md transition-all duration-300 text-stone-800 dark:text-white`}
+    >
       <div className="hidden">
         <FontToggle />
       </div>
