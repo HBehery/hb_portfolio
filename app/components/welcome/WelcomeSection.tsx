@@ -211,7 +211,7 @@ const WelcomeSection = () => {
               </li>
               <li style={{ textIndent: "-1.5em" }}>
                 Implemented two <b>fine-tuned AI models</b> to create a{" "}
-                <b>Python</b>-based tool (NumPy, PyTorch) summarizing
+                <b>Python</b>-based tool (NumPy, PyTorch) summarizing{" "}
                 <b>300,000+ corporate chat messages</b> into action items,
                 boosting client workflow efficiency by <b>200%</b>
               </li>
