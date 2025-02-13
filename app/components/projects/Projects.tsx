@@ -76,11 +76,11 @@ const ProjectsPage = () => {
         className="h-[250vh] flex flex-row gap-[2vw] p-[2vw] box-border overflow-hidden"
       >
         <Column
-          images={[images[0], images[8], images[3], images[0], images[7]]}
+          images={[images[1], images[8], images[3], images[1], images[0]]}
           y={y}
         />
         <Column images={[images[2], images[4], images[5], images[2]]} y={y2} />
-        <Column images={[images[6], images[7], images[1], images[0]]} y={y3} />
+        <Column images={[images[6], images[0], images[7], images[7]]} y={y3} />
       </div>
     </div>
   );
