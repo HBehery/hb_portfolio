@@ -20,7 +20,7 @@ const images = [
   },
   {
     src: "image3.png",
-    href: "https://github.com/HBehery/AegisLock-AI-Password-Manager",
+    href: "https://github.com/HBehery/steal-the-diamond-cyoa",
   },
   {
     src: "image4.png",
@@ -29,12 +29,12 @@ const images = [
   { src: "image5.png", href: null }, // No href for image5
   {
     src: "image6.png",
-    href: "https://github.com/HBehery/steal-the-diamond-cyoa",
+    href: "https://realityquest.vercel.app",
   },
-  { src: "image7.png", href: "https://github.com/HBehery/Hangman" },
+  { src: "image7.png", href: "https://www.iccoramadanreflect.ca/" },
   {
     src: "image8.png",
-    href: "https://github.com/HBehery/Post-Secondary-Guidance",
+    href: "https://github.com/HBehery/AegisLock-AI-Password-Manager",
   },
   {
     src: "image9.png",
