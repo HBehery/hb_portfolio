@@ -5,7 +5,7 @@ const posts = [
     title: "Pinned Post",
     description: "This is the pinned post.",
     slug: "pinned-post",
-    imageSrc: "/images/pinned-post.jpg",
+    imageSrc: "/blog_assets/post_1.png",
     imageAlt: "Pinned post image",
     isPinned: true,
   },
@@ -32,7 +32,6 @@ const posts = [
 export default function BlogPage() {
   return (
     <div>
-      <h1 className="text-4xl font-bold mb-6">Blog</h1>
       <BlogList posts={posts} />
     </div>
   );

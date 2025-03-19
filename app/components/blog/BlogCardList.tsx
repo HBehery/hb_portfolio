@@ -22,7 +22,6 @@ export default function BlogList({ posts }: BlogListProps) {
       {/* Pinned Post */}
       {pinnedPost && (
         <div className="mb-8">
-          <h2 className="text-3xl font-bold mb-4">Pinned Post</h2>
           <div className="w-full">
             <BlogCard
               title={pinnedPost.title}
@@ -30,7 +29,7 @@ export default function BlogList({ posts }: BlogListProps) {
               slug={pinnedPost.slug}
               imageSrc={pinnedPost.imageSrc}
               imageAlt={pinnedPost.imageAlt}
-              large // New prop to style the larger pinned card
+              large
             />
           </div>
         </div>

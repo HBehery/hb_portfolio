@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { TiPinOutline } from "react-icons/ti";
 
 interface BlogCardProps {
   title: string;
@@ -20,10 +21,11 @@ export default function BlogCard({
 }: BlogCardProps) {
   return (
     <div
-      className={`border dark:border-stone-800 rounded-lg shadow-lg hover:shadow-xl transition-all ${
+      className={`relative border dark:border-stone-800 rounded-lg shadow-lg hover:shadow-xl transition-all text-gray-800 dark:text-white ${
         large ? "p-8 md:flex md:gap-6 md:items-center" : "p-4"
       }`}
     >
+      {large && <TiPinOutline className="absolute top-4 right-4 " size={30} />}
       {/* Blog Image */}
       <div className={`${large ? "w-full md:w-1/2" : "mb-4"}`}>
         <Image
