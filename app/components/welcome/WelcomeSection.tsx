@@ -104,23 +104,25 @@ const WelcomeSection = () => {
           <div className="flex flex-col text-left pl-4 justify-between h-full pt-6 pb-3">
             <p>
               I am a fullstack software engineer based in Toronto, Ontario. I
-              will be graduating from the
+              graduated from the
               <span className="text-light dark:text-dark font-extrabold">
                 &nbsp;University of Toronto&nbsp;
               </span>
               as a&nbsp;
               <a
+                target="_blank"
+                rel="noopener noreferrer"
                 className="underline"
                 href="https://future.utoronto.ca/scholarships/presidents-scholars-of-excellence-program/"
               >
                 President&apos;s Scholar of Excellence
               </a>
-              &nbsp;by December 2024. Here are some of my technical skills:
+              &nbsp;in December 2024. Here are some of my technical skills:
             </p>
             <ul className="list-disc list-inside text-left pl-4 sm:pl-4 xl:pl-6 py-4 space-y-2">
               <li style={{ textIndent: "-1.5em" }}>
                 <span className="font-extrabold">Languages:</span> JavaScript,
-                Python, SQL, Go, Kotlin
+                CSS, HTML, Python, SQL, C/C++, Java, Go
               </li>
               <li style={{ textIndent: "-1.5em" }}>
                 <span className="font-extrabold">Libraries/Frameworks:</span>{" "}
@@ -149,7 +151,12 @@ const WelcomeSection = () => {
         <div className="flex flex-col justify-between text-sm  sm:text-[16px] space-y-4 overflow-hidden items-start w-[90%] sm:w-[80%] lg:w-[90%] bg-slate-400/10 dark:bg-zinc-600/10 backdrop-blur-md dark:text-white text-gray-900 py-5 px-6 max-[450px]:px-2">
           <div id="TriSpects Inc.">
             <h1 className="text-left font-extrabold text-2xl sm:text-3xl">
-              <a href="https://trispects.com" className="hover:underline">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://trispects.com"
+                className="hover:underline"
+              >
                 TriSpects Inc.
               </a>
             </h1>
@@ -161,19 +168,24 @@ const WelcomeSection = () => {
             </div>
             <ul className="list-disc list-inside text-left pl-4 sm:pl-4 xl:pl-12 pt-4 space-y-4 ">
               <li style={{ textIndent: "-1.5em" }}>
-                Fully developed 10+ page company{" "}
-                <a href="https://trispects.com" className="underline">
-                  website
+                Engineered company{" "}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://trispects.com"
+                  className="underline"
+                >
+                  website&apos;s
                 </a>{" "}
-                using native JavaScript/HTML/CSS, Bootstrap, and CSS asset
-                libraries to ensure a <b>100% responsive design</b> and seamless
-                user experience across all devices.
+                RESTful API and backend architecture using Python Django
+                (Wagtail), improving API response times by 57% and reducing
+                overhead when fetching data through heavy queries
               </li>
               <li style={{ textIndent: "-1.5em" }}>
-                Engineered the website backend architecture and{" "}
-                <b>RESTful API</b> using a{" "}
-                <b>Python Django framework (Wagtail)</b>, enabling seamless
-                frontend to backend integration.
+                Fully developed <b>15+ page</b> company website{" "}
+                <b>end-to-end</b> using <b>JavaScript/HTML/CSS</b> and Bootstrap
+                for the frontend interface, ensuring a <b>100%</b> responsive
+                design and seamless user experience across all devices
               </li>
               <li style={{ textIndent: "-1.5em" }}>
                 Implemented dynamic JavaScript components by leveraging{" "}
@@ -195,13 +207,10 @@ const WelcomeSection = () => {
             </div>
             <ul className="list-disc list-inside text-left pl-4 sm:pl-4 xl:pl-12 pt-4 space-y-4 text-[15px]">
               <li style={{ textIndent: "-1.5em" }}>
-                Built an application (Flutter/Python) optimizing appointment
-                setting process used by{" "}
-                <b>1.7+ million Reliance Home Comfort </b>
-                customers in Canada. Used Python Flask to engineer a RESTful API
-                to communicate suitable appointment dates between the frontend
-                and backend based on customer needs and stakeholder
-                requirements.
+                Used Python Flask to engineer a RESTful API and deploy an
+                application optimizing the appointment setting process for{" "}
+                <b>1.7+ million</b> customers across Canada, addressing customer
+                needs and stakeholder requirements
               </li>
               <li style={{ textIndent: "-1.5em" }}>
                 Developed and spearheaded SIRTTS’s strategic plan to utilize{" "}
@@ -227,6 +236,8 @@ const WelcomeSection = () => {
           <div className="pb-2">
             <h1 className="font-extrabold text-2xl text-left">
               <a
+                target="_blank"
+                rel="noopener noreferrer"
                 href="https://github.com/HBehery/realityquest"
                 className="hover:underline"
               >
@@ -248,6 +259,8 @@ const WelcomeSection = () => {
           <div className="pb-2">
             <h1 className="font-extrabold text-2xl text-left">
               <a
+                target="_blank"
+                rel="noopener noreferrer"
                 href="https://github.com/HBehery/AegisLock-AI-Password-Manager"
                 className="hover:underline"
               >
@@ -269,6 +282,31 @@ const WelcomeSection = () => {
           <div className="pb-2">
             <h1 className="font-extrabold text-2xl text-left">
               <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/HBehery/iccoreflect"
+                className="hover:underline"
+              >
+                ICCO Reflect
+              </a>
+            </h1>
+            <div className="flex flex-row text-gray-500 dark:text-gray-300 sm:pl-4 pl-2">
+              <p className="text-light dark:text-dark font-extrabold">
+                TypeScript, Next.JS, TailwindCSS
+              </p>
+            </div>
+            <ul className="list-disc list-inside text-left pl-4 sm:pl-4 xl:pl-12 space-y-4 text-[15px]">
+              <li style={{ textIndent: "-1.5em" }}>
+                Served as a portal to a daily competition hosted by ICCO, ~150
+                users
+              </li>
+            </ul>
+          </div>
+          <div className="pb-2">
+            <h1 className="font-extrabold text-2xl text-left">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
                 href="https://github.com/HBehery/Post-Secondary-Guidance"
                 className="hover:underline"
               >
@@ -290,6 +328,8 @@ const WelcomeSection = () => {
           <div className="pb-2">
             <h1 className="font-extrabold text-2xl text-left">
               <a
+                target="_blank"
+                rel="noopener noreferrer"
                 href="https://github.com/HBehery/hb_portfolio"
                 className="hover:underline"
               >
@@ -311,7 +351,12 @@ const WelcomeSection = () => {
           <div className="pb-2">
             <h1 className="font-extrabold text-xl sm:text-2xl text-left">
               + More (
-              <a href="https://github.com/HBehery" className="underline">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/HBehery"
+                className="underline"
+              >
                 Visit GitHub Profile
               </a>
               )
